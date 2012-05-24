@@ -1,5 +1,4 @@
-# What does Primus
-
+## What does Primus
 *Primus* is deployment tool that makes your project installation much more easy and clear for support and understanding. 
 From the user point of view Primus requires minimal efforts to write and add installation script into context of a user 
 project. Just one small python script plus installation instruction written in human readable format as step by step 
@@ -11,21 +10,16 @@ Primus follows the following paradigm:
    * Make hands free from absolute paths. Make everything in a context of project home
    * Centralize configuration properties (for many configs) in one place
 
-# Installation 
-
+## Installation 
 Primus itself doesn't require any installation activities. This is self deployed package that cares about itself.
 
-
-# How it works
-
+## How it works
 To put Primus in a context of your project dot the following:
 
    * Copy ".primus" folder into your project folder
    * Open ".primus/project.py" file and write down your deployment process scenario
 
-
-# Writing a deployment process scenario
-
+## Writing a deployment process scenario
 Imagine a user has the following dummy project:
    * User has a nice project “BigBang”
    * This project is written in python (code in “lib” folder) and java (code in “src” folder)
@@ -43,18 +37,15 @@ Imagine a user has the following dummy project:
   		])
 
 
-# Run a project deployment 
-
+## Run a project deployment 
 Run the following script located in context of your project:   
    $ python .primus/deploy.py
 
-# More information:
-
-   * Documentation: http://gravitysoft.org/doku.php?id=home:projects:primus
+## More information:
+   * Documentation: http://www.gravitysoft.org/doku.php?id=home:projects:primus
    * Primus presentation
-      * In PDF:
-      * As keynote file:
+      * In PDF: http://www.gravitysoft.org/download/Primus.pdf
+      * As keynote file: http://www.gravitysoft.org/download/Primus.pdf
 
-# Licensing
-
+## Licensing
 LGPL
