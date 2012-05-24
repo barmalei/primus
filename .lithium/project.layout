@@ -1,0 +1,21 @@
+
+
+PROJECT {
+	@desc = 'Primus'
+	@ver  = '1.4.1'
+    
+    SET('repository/*.zip', MetaGeneratedFileSet) {
+        CLASS(ZipFile) {
+            @base = 'lib/primus'
+        }
+    }
+
+    ARTIFACT(JAVA) {
+        @libs = ['lib']
+    }
+    
+    ARTIFACT(PYTHON) {
+        @libs = ['lib']
+    }
+}
+
