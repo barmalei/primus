@@ -44,8 +44,8 @@ Run the following script located in context of your project:
 ## More information:
    * Documentation: http://www.gravitysoft.org/doku.php?id=home:projects:primus
    * Primus presentation
-      * In PDF: http://www.gravitysoft.org/download/Primus.pdf
-      * As keynote file: http://www.gravitysoft.org/download/Primus.pdf
+      * In PDF: http://www.lw-zone.org/download/Primus.pdf
+      * As keynote file: http://www.lw-zone.org/download/Primus.pdf
 
 ## Licensing
 LGPL
