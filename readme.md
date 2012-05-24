@@ -30,6 +30,7 @@ Imagine a user has the following dummy project:
    * JUnit test has to be run
 
 Open ".primus/project.py" file and write down something like the following:
+
     	PROJECT=Project(“BigBang”,
     	[
         	CheckPythonEnvironment(version=(2,5)), # check if Python version is 2.5+
@@ -42,7 +43,7 @@ Open ".primus/project.py" file and write down something like the following:
 ## More information:
    * Documentation: http://www.gravitysoft.org/doku.php?id=home:projects:primus
    * Primus presentation
-      * In PDF: http://www.lw-zone.org/download/Primus.pdf
+      * In PDF: http://www.lw-zone.org/download/Primus.pdfs
       * As keynote file: http://www.lw-zone.org/download/Primus.pdf
 
 ## Licensing
