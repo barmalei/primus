@@ -19,6 +19,7 @@ To put Primus in a context of your project do the following:
    * Copy ".primus" folder into your project folder
    * Open ".primus/project.py" file and write down your deployment process scenario
    * As soon as you complete writing deployment scenario go to your project home and type the following command in terminal:
+		
 		$ python .primus/deploy.py
 
 ## Writing a deployment process scenario
