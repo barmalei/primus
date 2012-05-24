@@ -33,14 +33,14 @@ Imagine a user has the following dummy project:
    * Project requires “time.jar” third party library (available in a http repo)
    * JUnit test has to be run
 
-    PROJECT=Project(“BigBang”,
-    [
-        CheckPythonEnvironment(version=(2,5)),
-    	CompileJavaCode(“src”, “lib”),
-    	ValidatePythonCode(“lib”),
-    	DownloadFile(“lib/”, "http://somwhere/timer.jar"),
-		RunJUnit("test/TestBigbang.class", classpath = ['test', 'lib', 'lib/junit/junit-4.8.2.jar'])
-  	])
+    	PROJECT=Project(“BigBang”,
+    	[
+        	CheckPythonEnvironment(version=(2,5)),
+    		CompileJavaCode(“src”, “lib”),
+    		ValidatePythonCode(“lib”),
+    		DownloadFile(“lib/”, "http://somwhere/timer.jar"),
+			RunJUnit("test/TestBigbang.class", classpath = ['test', 'lib', 'lib/junit/junit-4.8.2.jar'])
+  		])
 
 
 # Run a project deployment 
