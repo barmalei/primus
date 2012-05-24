@@ -161,9 +161,9 @@ class DoGroup(Artifact):
 
      
 class Project(Artifact):
-    def __init__(self, name, dependencies = []):
+    def __init__(self, name, dependencies = [], version = (1,0,0)):
         Artifact.__init__(self, name, dependencies)
-        self.version = (1,0,0)
+        self.version = version
     
     def deploy(self): BUILD(self)
             

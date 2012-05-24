@@ -19,5 +19,5 @@ PROJECT = Project("Primus",
         DownloadFile('lib', "%s/junit/junit-4.8.2.jar" % REPO_URL),
         CompileJavaCode('lib/**/*.java'),
         RunPythonCode('lib/primus/test.py')
-      ]) 
+      ], version = (1,4,1)) 
 
