@@ -10,7 +10,7 @@ DEPLOY_CONF = '.primus/deploy.conf'
 #  Deployment configuration
 PROJECT = Project("Primus", 
       [ 
-        DoGroup("Test environnment", 
+        DoGroup("Test environment", 
         [
           CheckPythonEnvironment(required_version=(2,5)),
           ValidatePythonCode('lib'),
