@@ -31,7 +31,7 @@ Imagine a user has the following dummy project:
    * JUnit test has to be run
 
 Open ".primus/project.py" file and write down something like the following:
-
+```python
     	PROJECT=Project(“BigBang”,
     	[
         	CheckPythonEnvironment(version=(2,5)), # check if Python version is 2.5+
@@ -40,7 +40,7 @@ Open ".primus/project.py" file and write down something like the following:
     		ValidatePythonCode(“lib”),  # validate Python code located in "lib" folder
 			RunJUnit("test/TestBigbang.class", classpath = ['test', 'lib', 'lib/junit/junit-4.8.2.jar'])
   		])
-
+```
 ## More information:
    * Documentation: http://www.gravitysoft.org/doku.php?id=home:projects:primus
    * Primus presentation
