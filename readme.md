@@ -32,13 +32,13 @@ Imagine a user has the following dummy project:
 
 Open ".primus/project.py" file and write down something like the following:
 ```python
-    	PROJECT=Project(“BigBang”,
+    	PROJECT=Project('BigBang',
     	[
         	CheckPythonEnvironment(version=(2,5)), # check if Python version is 2.5+
-    		DownloadFile(“lib/”, "http://somwhere/timer.jar"),  # download "timer.jar" in "lib" folder
-    		CompileJavaCode(“src”, “lib”),  # compile all java code located in "src" into "lib" folder
-    		ValidatePythonCode(“lib”),  # validate Python code located in "lib" folder
-			RunJUnit("test/TestBigbang.class", classpath = ['test', 'lib', 'lib/junit/junit-4.8.2.jar'])
+    		DownloadFile('lib/', 'http://somwhere/timer.jar'),  # download 'timer.jar' in 'lib' folder
+    		CompileJavaCode('src', 'lib'),  # compile all java code located in 'src' into 'lib' folder
+    		ValidatePythonCode('lib'),  # validate Python code located in "lib" folder
+			RunJUnit('test/TestBigbang.class', classpath = ['test', 'lib', 'lib/junit/junit-4.8.2.jar'])
   		])
 ```
 ## More information:
